@@ -1,0 +1,163 @@
+/* CSS DOSYASI */
+
+/* Boşlukları Sıfırla */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa{
+    width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 600px;
+    margin: auto;
+}
+#banner{
+    width: 100%;
+    height: 100px;
+    border-style: none;
+    border-width: 1px;
+    margin: auto;
+    background-color: white;
+}
+#logo{
+    width: 100px;
+    height: 80px;
+    border-style: none;
+    border-width: 1px;
+    background-color: solid;
+    position: relative;
+    top:10px;
+    left: 10px;
+    float: left;
+}
+
+#foto{
+    width:115px;
+}
+#sosyal{
+    width: 185px;
+    height: 40px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+#medya{
+    max-width: 42px;
+    max-height: 47px;
+    
+}
+/* Anamenü */
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu {
+    width: 399,9px;
+    height: 50px;
+    border-style: none;
+    border-width: 1px;
+    margin: auto;
+    background-color: #95a5a6;
+    
+
+}
+#anamenu ul li{
+    width: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: black;
+    background-color: white;
+    float: left;
+    padding: 3px;
+    margin-left: 7px;
+    position: relative;
+    top: 8px;
+    background-color: black;
+    text-align: center;
+
+}
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+}
+#anamenu ul a:link{
+    color: white;
+}
+/*#anamenu ul a:visited{
+    color: blue;
+}*/
+#anamenu ul a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+#icerik{
+    width: 300px;
+    min-height: 400px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    float: left;
+}
+#yanmenu{
+    width: 100px;
+    min-height: 400px;
+    border-style: none;
+    border-width: 1px;
+    background-color: chocolate;
+    float: right;
+}
+.resim{
+    float: left;
+    width: 100px;
+    margin: 10px;
+
+}
+.metin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.baslik{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+}
+
+/* Altmenü */
+#altmenu{
+    width: 399px;
+    min-height: 50px;
+    border-style: none;
+    border-width: 1px;
+    background-color: black;
+    float: right;
+    text-align: center;
+    color: white;
+}
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
+#altmenu a:hover{
+    color: brown;
+
+}
+#haklar{
+    padding: 3px;
+}
